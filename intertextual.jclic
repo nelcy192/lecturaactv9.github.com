@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="intertextual" version="0.1.3">
+ <settings>
+  <title>intertextual</title>
+  <revision description="created" date="5/2/24" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Actividad 1" />
+  <item name="ACTIVIDAD2" />
+ </sequence>
+ <activities>
+  <activity class="@associations.ComplexAssociation" name="Actividad 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFF6633" background="0xCCCCFF" />
+     </style>
+     <p>Lee el libro "Los cuentos de las mil y una noche" y desarrolla la actividad, organiza los párrafos.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="18" bold="true" />
+      <color foreground="0xFF6633" background="0xCCCCFF" />
+     </style>
+     <p>Felicidades terminaste la actividad.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="250.0" cellHeight="150.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="1">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color foreground="0xFF3333" background="0xFFFFCC" />
+     </style>
+     <p>–Han de saber que mi historia es extraordinaria, y les contaré todo lo que me </p>
+     <p>sucedió y todo lo que sufrí antes de llegar a este estado de prosperidad y de </p>
+     <p>convertirme en el señor de este lugar en el que me ven. Solo alcancé esta alta </p>
+     <p>posición después de penosos trabajos e infinidad de peligros. </p>
+    </cell>
+    <cell id="2">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color foreground="0xFF3333" background="0xFFFFCC" />
+     </style>
+     <p>. ¡Cuántos afanes </p>
+     <p>y problemas he tenido que padecer en otros tiempos! He hecho siete viajes, cada </p>
+     <p>uno de los cuales constituye un cuento maravilloso que confunde a la razón, y </p>
+     <p>todo esto aconteció por la fatalidad de la fortuna y el destino. Pues de lo que en </p>
+     <p>el destino escrito está, no hay amparo ni escapatoria. </p>
+    </cell>
+    <cell id="3">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color foreground="0xFF3333" background="0xFFFFCC" />
+     </style>
+     <p>Sepan, entonces, nobles </p>
+     <p>señores –prosiguió él– que estoy a punto de relatar…</p>
+    </cell>
+    <cell id="4">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color foreground="0xFF3333" background="0xFFFFCC" />
+     </style>
+     <p>–Como les conté ayer, regresé de mi segundo viaje1</p>
+     <p> muy contento de haberme </p>
+     <p>salvado y con una riqueza mucho más grande. Alá me compensó por todo lo </p>
+     <p>que había derrochado y perdido.</p>
+    </cell>
+   </cells>
+   <cells rows="6" cols="1" cellWidth="137.0" cellHeight="100.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell image="milyuna.png">
+     <style>
+      <font family="Times New Roman" size="17" />
+      <color foreground="0xFF3333" background="0xFFFFCC" />
+     </style>
+    </cell>
+    <cell imgAlign="middle,bottom" avoidOverlapping="true" image="simb.png">
+     <style>
+      <font family="Times New Roman" size="20" bold="true" />
+      <color foreground="0xFF3333" background="0xCCFF99" />
+     </style>
+     <p>1- párrafo.</p>
+    </cell>
+    <cell imgAlign="middle,bottom" avoidOverlapping="true" image="simb.png">
+     <style>
+      <font family="Times New Roman" size="20" bold="true" />
+      <color foreground="0xFF3333" background="0xCCFF99" />
+     </style>
+     <p>2- Párrafo</p>
+    </cell>
+    <cell imgAlign="middle,bottom" avoidOverlapping="true" image="simb.png">
+     <style>
+      <font family="Times New Roman" size="20" bold="true" />
+      <color foreground="0xFF3333" background="0xCCFF99" />
+     </style>
+     <p>3- Párrafo</p>
+    </cell>
+    <cell imgAlign="middle,bottom" avoidOverlapping="true" image="simb.png">
+     <style>
+      <font family="Times New Roman" size="20" bold="true" />
+      <color foreground="0xFF3333" background="0xCCFF99" />
+     </style>
+     <p>4- Párrafo</p>
+    </cell>
+    <cell image="milyuna.png">
+     <style>
+      <font family="Times New Roman" size="20" bold="true" />
+      <color foreground="0xFF3333" background="0xFFFFCC" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="ACTIVIDAD2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0xCC33FF" background="0xFF9999" />
+     </style>
+     <p>Lee y responde las preguntas de la actividad relacionando el contenido de cada columna.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Times New Roman" size="17" bold="true" />
+      <color foreground="0x990066" background="0x99CC00" />
+     </style>
+     <p>Felicidades terminaste la actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="410.0" cellHeight="109.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003399" background="0xCCFFCC" />
+     </style>
+     <p>El día del festival de Nooroze, el primer día del año y de la primavera, el Sultán </p>
+     <p>de Shiraz terminaba su audiencia pública cuando un Hindú apareció al pie del </p>
+     <p>trono con un caballo artificial–Su Majestad –le dijo–, usted y yo hemos visto a qué velocidad partió el </p>
+     <p>caballo.                                                    ¿Cuál es el título de este cuento?</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0xFF0033" background="0xFFFFCC" />
+     </style>
+     <p>Pero, Comendador de los Creyentes, el amor por el oro se había adueñado de </p>
+     <p>mi corazón a tal punto, que ni siquiera pude detenerme a examinar las riquezas. </p>
+     <p>Me abalancé sobre el primer montón de oro a mi alcance y empecé a meterlo en el </p>
+     <p>saco que llevaba conmigo. </p>
+     <p>                                          ¿Este cuento pertenece al libro?</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x330066" background="0x99FF99" />
+     </style>
+     <p>–Comendador de los Creyentes, nací en Bagdad. Quedé huérfano cuando era </p>
+     <p>aún un muchacho, pues mis padres murieron con pocos días de diferencia uno </p>
+     <p>de otro. Heredé de ellos una pequeña fortuna, y trabajé duro día y noche para </p>
+     <p>aumentarla.                                     ¿Cuál es el título de este cuento?</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003333" background="0xFFCC99" />
+     </style>
+     <p>–Vi en un sueño a una persona que me dijo: </p>
+     <p>“Tu fortuna está en El Cairo: ve allí a buscarla”. </p>
+     <p>Y cuando llegué a esta ciudad, encontré que la </p>
+     <p>fortuna de la que ese hombre me habló eran los </p>
+     <p>golpes que tú me diste con la rama.</p>
+     <p>                                           ¿Este cuento pertenece al libro?</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003333" background="0xFFCC66" />
+     </style>
+     <p>Él recibió el dinero y volvió a Bagdad.</p>
+     <p>Pues bien, la casa de Bagdad que el </p>
+     <p>imán describió era la de aquel hombre. Por </p>
+     <p>ello, cuando llegó a su morada, excavó bajo la </p>
+     <p>fuente y encontró abundantes riquezas.                       ¿Cuál es el título de este cuento?</p>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="231.0" cellHeight="110.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="cab.png">
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003333" background="0xFFCC99" />
+     </style>
+     <p>Historia del caballo encantado</p>
+    </cell>
+    <cell txtAlign="middle,bottom" imgAlign="right,middle" avoidOverlapping="true" image="milyuna.png">
+     <style>
+      <font family="Times New Roman" size="20" />
+      <color foreground="0x003333" background="0xFFCC99" />
+     </style>
+     <p>Cuentos de las mil y una noche</p>
+    </cell>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="cieg.png">
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003333" background="0xFFCC99" />
+     </style>
+     <p>Historia de Abdalá, </p>
+     <p>el mendigo ciego</p>
+    </cell>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="milyuna.png">
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003333" background="0xFFCC99" />
+     </style>
+     <p>Cuentos de las mil y una noche</p>
+    </cell>
+    <cell imgAlign="right,middle" avoidOverlapping="true" image="elhom.png">
+     <style>
+      <font family="Times New Roman" size="16" />
+      <color foreground="0x003333" background="0xFFCC99" />
+     </style>
+     <p>El hombre que soñó</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="cab.png" file="cab.png" />
+  <media name="cieg.png" file="cieg.png" />
+  <media name="elhom.png" file="elhom.png" />
+  <media name="milyuna.png" file="milyuna.png" />
+  <media name="simb.png" file="simb.png" />
+ </mediaBag>
+</JClicProject>
+
